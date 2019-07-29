@@ -1,1 +1,2 @@
-# thp-j21-sinatra
+# Première app avec Sinatra 
+### By Naïlé Titah

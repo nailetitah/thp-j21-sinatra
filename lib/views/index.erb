@@ -9,9 +9,10 @@
     <h2>Liste des gossips</h2>
 	<% gossips.each do |gossip| %>
 	        <p>
-	          <%= gossip.id %><br/>
+            <strong>Gossip n°<%= gossip.id %></strong><br/>
 	          <%= gossip.author %><br/>
-	          <%= gossip.content %>
+	          <%= gossip.content %><br/>
+            <a href="/gossips/<%= gossip.id %>">Lien</a>
 	        </p>
 	      <% end %>
   </body>
